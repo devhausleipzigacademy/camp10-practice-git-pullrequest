@@ -4,8 +4,16 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { RootLayout } from "./layouts/Root";
 import { Chirag } from "./pages/Chirag";
+import { Felix } from "./pages/Felix";
+import { Charizard } from "./pages/Charizard";
 import { Julian } from "./pages/Julian";
 import { Hendryk } from "./pages/Hendryk";
+import { Tobi } from "./pages/Tobi";
+import { Jacob } from "./pages/Jacob";
+import { Christian } from "./pages/Christian";
+import { Pei } from "./pages/Pei";
+import { Joan } from "./pages/Joan";
+
 
 const router = createBrowserRouter([
 	{
@@ -17,8 +25,8 @@ const router = createBrowserRouter([
 				element: <p>hello, camp10 </p>,
 			},
 			{
-				path: "chirag",
-				element: <Chirag />,
+				path: "charizard",
+				element: <Charizard />,
 			},
 			{
 				path: "julian",
@@ -30,28 +38,28 @@ const router = createBrowserRouter([
 			},
 			{
 				path: "joan",
-				element: <p>hello, joan </p>,
+				element: <Joan />,
 			},
 			{
 				path: "pei",
-				element: <p>hello, pei </p>,
+				element: <Pei />,
 			},
 			{
 				path: "felix",
-				element: <p>hello, felix </p>,
+				element: <Felix />,
 			},
 			{
 				path: "jacob",
-				element: <p>hello, jacob </p>,
+				element: <Jacob />,
 			},
 			{
 				path: "christian",
-				element: <p>hello, christian</p>,
+				element: <Christian />,
 			},
 	
 			{
 				path: "tobi",
-				element: <p>hello, tobi </p>,
+				element: <Tobi />,
 			},
 		],
 	},
