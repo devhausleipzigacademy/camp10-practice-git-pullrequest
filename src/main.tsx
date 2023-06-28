@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { RootLayout } from "./layouts/Root";
 import { Charizard } from "./pages/Charizard";
 import { Julian } from "./pages/Julian";
+import { Christian } from "./pages/Christian";
 import { Pei } from "./pages/Pei";
 import { Joan } from "./pages/Joan";
 
@@ -43,7 +44,7 @@ const router = createBrowserRouter([
 			},
 			{
 				path: "christian",
-				element: <p>hello, christian</p>,
+				element: <Christian />,
 			},
 			{
 				path: "hendryk",
@@ -58,7 +59,7 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
-	<React.StrictMode>
-		<RouterProvider router={router} />
-	</React.StrictMode>
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>
 );
