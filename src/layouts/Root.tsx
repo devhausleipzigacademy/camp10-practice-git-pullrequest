@@ -5,7 +5,7 @@ export function RootLayout() {
 		<div className="h-screen flex flex-col">
 			<header className="bg-slate-700 text-white p-4 flex gap-4">
 				<Link to="/">Home</Link>
-				<Link to="/chirag">Chirag</Link>
+				<Link to="/charizard">Charizard</Link>
 				<Link to="/Julian">Julian</Link>
 				<Link to="/joan">Joan</Link>
 				<Link to="/pei">Pei</Link>
