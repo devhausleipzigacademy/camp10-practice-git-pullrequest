@@ -4,6 +4,7 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { RootLayout } from "./layouts/Root";
 import { Chirag } from "./pages/Chirag";
+import Felix from "./pages/Felix";
 
 const router = createBrowserRouter([
 	{
@@ -32,7 +33,7 @@ const router = createBrowserRouter([
 			},
 			{
 				path: "felix",
-				element: <p>hello, felix </p>,
+				element: <Felix />,
 			},
 			{
 				path: "jacob",
