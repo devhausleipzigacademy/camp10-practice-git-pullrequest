@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { RootLayout } from "./layouts/Root";
-import { Chirag } from "./pages/Chirag";
+import { Charizard } from "./pages/Charizard";
 import { Julian } from "./pages/Julian";
 
 const router = createBrowserRouter([
@@ -16,8 +16,8 @@ const router = createBrowserRouter([
 				element: <p>hello, camp10 </p>,
 			},
 			{
-				path: "chirag",
-				element: <Chirag />,
+				path: "charizard",
+				element: <Charizard />,
 			},
 			{
 				path: "julian",
