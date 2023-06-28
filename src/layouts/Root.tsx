@@ -13,6 +13,7 @@ export function RootLayout() {
 				<Link to="/jacob">Jacob</Link>
 				<Link to="/christian">Christian</Link>
 				<Link to="/hendryk">Hendryk</Link>
+				<Link to="/tobi">Tobi</Link>
 			</header>
 			<div className="flex-1 flex">
 				<main className="p-4">
