@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { RootLayout } from "./layouts/Root";
 import { Chirag } from "./pages/Chirag";
 import { Julian } from "./pages/Julian";
+import { Joan } from "./pages/Joan";
 
 const router = createBrowserRouter([
 	{
@@ -25,7 +26,7 @@ const router = createBrowserRouter([
 			},
 			{
 				path: "joan",
-				element: <p>hello, joan </p>,
+				element: <Joan />,
 			},
 			{
 				path: "pei",
