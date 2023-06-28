@@ -6,6 +6,7 @@ import { RootLayout } from "./layouts/Root";
 import { Charizard } from "./pages/Charizard";
 import { Julian } from "./pages/Julian";
 import { Pei } from "./pages/Pei";
+import { Joan } from "./pages/Joan";
 
 const router = createBrowserRouter([
 	{
@@ -26,7 +27,7 @@ const router = createBrowserRouter([
 			},
 			{
 				path: "joan",
-				element: <p>hello, joan </p>,
+				element: <Joan />,
 			},
 			{
 				path: "pei",
