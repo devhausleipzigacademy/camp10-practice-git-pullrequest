@@ -4,58 +4,59 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { RootLayout } from "./layouts/Root";
 import { Chirag } from "./pages/Chirag";
+import { Christian } from "./pages/Christian";
 
 const router = createBrowserRouter([
-	{
-		path: "/",
-		element: <RootLayout />,
-		children: [
-			{
-				index: true,
-				element: <p>hello, camp10 </p>,
-			},
-			{
-				path: "chirag",
-				element: <Chirag />,
-			},
-			{
-				path: "julian",
-				element: <p>hello, julian </p>,
-			},
-			{
-				path: "joan",
-				element: <p>hello, joan </p>,
-			},
-			{
-				path: "pei",
-				element: <p>hello, pei </p>,
-			},
-			{
-				path: "felix",
-				element: <p>hello, felix </p>,
-			},
-			{
-				path: "jacob",
-				element: <p>hello, jacob </p>,
-			},
-			{
-				path: "christian",
-				element: <p>hello, christian</p>,
-			},
-			{
-				path: "hendryk",
-				element: <p>hello, hendryk </p>,
-			},
-			{
-				path: "tobi",
-				element: <p>hello, tobi </p>,
-			},
-		],
-	},
+  {
+    path: "/",
+    element: <RootLayout />,
+    children: [
+      {
+        index: true,
+        element: <p>hello, camp10 </p>,
+      },
+      {
+        path: "chirag",
+        element: <Chirag />,
+      },
+      {
+        path: "julian",
+        element: <p>hello, julian </p>,
+      },
+      {
+        path: "joan",
+        element: <p>hello, joan </p>,
+      },
+      {
+        path: "pei",
+        element: <p>hello, pei </p>,
+      },
+      {
+        path: "felix",
+        element: <p>hello, felix </p>,
+      },
+      {
+        path: "jacob",
+        element: <p>hello, jacob </p>,
+      },
+      {
+        path: "christian",
+        element: <Christian />,
+      },
+      {
+        path: "hendryk",
+        element: <p>hello, hendryk </p>,
+      },
+      {
+        path: "tobi",
+        element: <p>hello, tobi </p>,
+      },
+    ],
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
-	<React.StrictMode>
-		<RouterProvider router={router} />
-	</React.StrictMode>
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>
 );
