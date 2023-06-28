@@ -7,7 +7,6 @@ import { Charizard } from "./pages/Charizard";
 import { Julian } from "./pages/Julian";
 import { Pei } from "./pages/Pei";
 import { Joan } from "./pages/Joan";
-import { Pei } from "./pages/Pei";
 
 const router = createBrowserRouter([
 	{
