@@ -3,6 +3,8 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { RootLayout } from "./layouts/Root";
+import { Chirag } from "./pages/Chirag";
+import { Felix } from "./pages/Felix";
 import { Charizard } from "./pages/Charizard";
 import { Julian } from "./pages/Julian";
 import { Tobi } from "./pages/Tobi";
@@ -10,6 +12,7 @@ import { Jacob } from "./pages/Jacob";
 import { Christian } from "./pages/Christian";
 import { Pei } from "./pages/Pei";
 import { Joan } from "./pages/Joan";
+
 
 const router = createBrowserRouter([
 	{
@@ -38,7 +41,7 @@ const router = createBrowserRouter([
 			},
 			{
 				path: "felix",
-				element: <p>hello, felix </p>,
+				element: <Felix />,
 			},
 			{
 				path: "jacob",
